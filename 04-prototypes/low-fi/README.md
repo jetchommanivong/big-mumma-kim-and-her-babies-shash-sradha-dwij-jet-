@@ -28,7 +28,7 @@ Each photo below stands in for a picture the gun camera would take when the trig
 | --- | --- |
 | ![Player aiming around a pillar, laser dot visible](images/01-aiming-around-pillar.jpeg) Aiming around a pillar (laser dot visible) | ![Player advancing on target](images/02-advancing-on-target.jpeg) Advancing on a target |
 | ![Player lunging mid-shot while classmates watch](images/03-lunging-shot.jpeg) Lunging shot | ![Two players facing off](images/04-face-off.jpeg) Face-off between two players |
-| ![Player crouched and aiming](images/05-crouched-aim.jpeg) Crouched aim | ![Player ducking for cover](images/06-ducking-for-cover.jpeg) Ducking for cover |
+| ![Player crouched and aiming](images/05-crouched-aim.jpeg) Crouched aim | ![Player ducking for cover](images/06-ducking-for-cover.jpeg) Trick shot D:|
 | ![Two players standing back to back](images/07-back-to-back.jpeg) Back-to-back before a round | ![Player kneeling and aiming](images/08-kneeling-aim.jpeg) Kneeling aim |
 | ![Player hiding under a table](images/09-hiding-under-table.jpeg) Hiding under a table | ![Laser dot hitting an opponent's vest](images/10-laser-hit-on-vest.jpeg) Laser hit on an opponent's vest |
 | ![Player dodging, blurred with motion](images/11-dodging-motion-blur.jpeg) Dodging (motion blur) | ![Player aiming in the open](images/12-aiming-in-the-open.jpeg) Aiming in the open |
@@ -72,7 +72,7 @@ Each photo below stands in for a picture the gun camera would take when the trig
 
 ### 👥 P5-6
 
-> It’s fun, especially when you haveosmeone running away. It’s exciting, you have to run, you have to dodge, you have to aim. Coordinate to be a player. You have to run around to be fun, obstacles and a battleground. Would love to play in a CSGO environment. The size of the classroom is enough. It’s not too big, it’s not too small.
+> It’s fun, especially when you have someone running away. It’s exciting, you have to run, you have to dodge, you have to aim. Coordinate to be a player. You have to run around to be fun, obstacles and a battleground. Would love to play in a CSGO environment. The size of the classroom is enough. It’s not too big, it’s not too small.
 >
 > It’s fun to chase each other in a limited space. If it’s too big, people will just run. It depends on how easy it is to use the gun we design, is it easy to use, easy to aim. Small contained space. The gun is too lo-fi.
 >
