@@ -16,4 +16,4 @@ The difference between a regular light and the laser light is not too large; thi
 
 ## Code
 
-The code, here you may find: [code](laser-detection/LDR_Initial.ino)
+The code, here you may find: [code](LDR_Initial.ino)
