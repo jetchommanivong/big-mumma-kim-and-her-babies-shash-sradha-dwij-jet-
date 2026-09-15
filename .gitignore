@@ -1,0 +1,18 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Temp / lock files from Office & design tools
+~$*
+*.tmp
+
+# Large recordings (store on Drive and link instead)
+*.mp4
+*.mov
+*.m4a
+*.wav
