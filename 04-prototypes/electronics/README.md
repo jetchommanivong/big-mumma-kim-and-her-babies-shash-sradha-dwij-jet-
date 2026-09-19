@@ -9,9 +9,9 @@ Light increases conductivity -> resistance decreases with light. When the laser 
 
 ### Setup
 
-- 3.3V Voltage: Connect one leg of the LDR to the 3.3V pin on the ESP32.
-- The Junction (Signal): Connect the second leg of the LDR to a row on the breadboard. From that same row, run a jumper wire to an analog-capable pin on the ESP32, such as GPIO 34
-- Resistor to Ground: In that same breadboard row, connect one end of the 10kΩ resistor. Connect the other end of the 10kΩ resistor to a GND (ground) pin on the ESP32.
+- First LED leg → 3.3V pin on ESP32.
+- Second LED leg → analog-capable pin on ESP32 (e.g. GPIO 34)
+- Second LED leg → 10kΩ resistor. Connect the other end of the 10kΩ resistor to GND on ESP32.
 
 ### Results
 
@@ -19,11 +19,15 @@ The difference between a regular light and the laser light is not too large; thi
 
 ### Code
 
-The code, here you may find: [code](LDR_Initial.ino)
+The code, here you may find: [code](laser-detection/LDR_Initial.ino)
+
 
 ## 2. ZD1952 IR Receiver (Receiver) + ZD1945 IR Transmitter (Transmitter) test
 
+### Technology
+This is how TV/roller gates work. 
 ### About
+
 ZD1952:
 - Center Frequency (frequency of when the receiver "hears" the IR light blinking and tunes out everything else (steady ambient light, other flicker rates, noise)): 37.9kHz
 - 12m range typical — plenty for indoor laser tag.
@@ -35,7 +39,23 @@ ZD1945:
 - Viewing angle: 30° — moderately narrow, good "aimed shot" feel rather than floodlight
 - Operating current: rated/tested at 20mA continuous
 - Input voltage: regulated with a resistor (or transistor which is better) -> if 5V: 220 Ohm or more; if 3.3V: 100 Ohm or more.
+- Documentation: [Datasheet](https://media.jaycar.com.au/product/resources/ZD1945_datasheetMain_41161.pdf?_gl=1*13bzrdf*_gcl_au*MjEwOTkxMzQ2LjE3ODg4Mzc1MjUuLS4tLjE3ODg4Mzc3NzQuMzIwNzE1MjY5LjE3ODg4Mzc3NzQuMTc4ODgzODA1Nw..)
 
 ### Setup
+
 Transmitter (Gun) ESP32:
-- 3.3V voltage: 
+- LED anode (long leg) → 220 Ohm resistor → GPIO;
+- The LED cathode (short leg) → GND
+
+Reciever (Vest) ESP32:
+- Connect ZD1952 OUT → GPIO pin of ESP32
+- Connect ZD1952 GND → GND
+- Connect ZD1952 VCC → 3V3
+
+### Results
+
+Precision much higher than LDR and isn't too disturbed by ambient light. More testing is required for long lengths + different lighting conditions + the vertical and horizontal viewing angles and whether its too much, but theoretically it should work quite well. If a narrower and stronger IR beam or a stronger receiver is required, need to check other models.  
+
+### Code
+
+The code, here you may find: [code](laser-detection/LDR_Initial.ino)
