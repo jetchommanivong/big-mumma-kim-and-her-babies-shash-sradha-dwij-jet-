@@ -19,7 +19,7 @@ The difference between a regular light and the laser light is not too large; thi
 
 ### Code
 
-The code, here you may find: [code](laser-detection/LDR_Initial.ino)
+The code, here you may find: [code](laser-detection/ldr.ino)
 
 
 ## 2. ZD1952 IR Receiver (Receiver) + ZD1945 IR Transmitter (Transmitter) test
@@ -58,4 +58,5 @@ Precision much higher than LDR and isn't too disturbed by ambient light. More te
 
 ### Code
 
-The code, here you may find: [code](laser-detection/LDR_Initial.ino)
+IR transmitter code: [code](laser-detection/ir-transmitter.ino)
+IR receiver code: [code](laser-detection/ir-receiver.ino)
