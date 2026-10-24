@@ -1,7 +1,4 @@
-# Read me... I guess
-NO!!!!!
-
-Whyyyy
+# Read me
 
 ## Folder structure
 
@@ -17,7 +14,6 @@ Whyyyy
 | [`assets/`](assets/) | Shared photos, illustrations, fonts |
 | [`deliverables/`](deliverables/) | Reports, presentations, final submission |
 
-Numbered folders follow the design process in order. Each folder has its own README explaining what belongs there.
 
 ## Conventions
 - Lowercase, hyphenated file names: `2026-09-15-interview-p03.md`
