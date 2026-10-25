@@ -4,15 +4,11 @@
 
 | Folder | What goes in it |
 | --- | --- |
-| [`00-admin/`](00-admin/) | Meeting notes, brief, timeline, team agreement |
-| [`01-research/`](01-research/) | Interviews, surveys, competitor analysis, personas, journey maps |
-| [`02-define/`](02-define/) | Problem statements, HMWs, requirements |
-| [`03-ideation/`](03-ideation/) | Sketches, moodboards, concepts, idea selection |
-| [`04-prototypes/`](04-prototypes/) | Low-fi → mid-fi → hi-fi prototypes |
-| [`05-testing/`](05-testing/) | Usability test plans, sessions, findings |
-| [`design-system/`](design-system/) | Branding, colours, type, components, icons |
-| [`assets/`](assets/) | Shared photos, illustrations, fonts |
-| [`deliverables/`](deliverables/) | Reports, presentations, final submission |
+| [`00-admin/`](00-admin/) 
+| [`01-research/`](01-research/) 
+| [`02-define/`](02-define/) 
+| [`03-ideation/`](03-ideation/) 
+| [`04-prototypes/`](04-prototypes/) 
 
 
 ## Conventions
