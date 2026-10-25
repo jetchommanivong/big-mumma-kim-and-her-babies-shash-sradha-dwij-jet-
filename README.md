@@ -2,13 +2,11 @@
 
 ## Folder structure
 
-| Folder | What goes in it |
-| --- | --- |
-| [`00-admin/`](00-admin/) 
-| [`01-research/`](01-research/) 
-| [`02-define/`](02-define/) 
-| [`03-ideation/`](03-ideation/) 
-| [`04-prototypes/`](04-prototypes/) 
+[`00-admin/`](00-admin/) 
+[`01-research/`](01-research/) 
+[`02-define/`](02-define/) 
+[`03-ideation/`](03-ideation/) 
+[`04-prototypes/`](04-prototypes/) 
 
 
 ## Conventions
